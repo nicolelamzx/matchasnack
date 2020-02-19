@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(80,175,19);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 20;
+}
+
+body {
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+footer a {
+    color: black;
+    font-size: 30px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    font-family: Tahoma;
+    text-align: center;
+    border: 2px black solid;
+    width: 260px;
+    height: 40px;
+    background: white;
+}
+
+h2 {
+     color: white;
+     font-size: 80px;
+     font-family: Tahoma;
+     font-weight: bold;
+}
+
+h3 {
+    color: rgb(80,175,19);
+    font-size: 40px;
+    font-family: Tahoma;
+    font-weight: normal;
+    line-height: 150%;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(80,175,19);
+    font-size: 50px;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+p {
+    color: black;
+    font-size: 30px;
+    font-family: Tahoma;
+    font-weight: normal;
+    line-height: 150%;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+li {
+    color: rgb(80,175,19);
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 200;
+    display: inline-block;
+    margin: 30px ;
+}
+
+.intro {
+    background-image: url("../images/headerBG.jpg");
+    position: relative;
+    top: 80px;
+    background-size: cover;
+    background-position:bottom center;
+    height: 820px;
+    width: 100%;
+    padding: 360px 40px;
+    text-align: center;
+}
+
+
+.home a{
+    color: black;
+    font-size: 20px;
+    font-family: Tahoma;
+    padding: 4px 6px;
+    text-align: center;
+    border: 2px black solid;
+    background: white;
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.snack {
+    display: inline-block;
+    border: 4px rgb(80,175,19) solid;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.snack img {
+    display: table-cell;
+}
+
+.description {
+    position: relative;
+    top: 100px;
+}
+
+#listing {
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+
